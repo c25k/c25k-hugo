@@ -1,18 +1,26 @@
-<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-    <title>{{ .Title }} - C25K.io</title>
-    {{ template "chrome/includes.html" . }}
-    {{ partial "head/seo.html"}}
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/static/css/styles.css" rel="stylesheet">
-    <!-- <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> -->
-    <script type="text/javascript" src="//use.typekit.net/sxc8efr.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  </head>
-  <body lang="en">
-    
-    {{ template "chrome/menu.html" . }}
+  <title>{{ .Title }} - C25K.io</title>
+  
+  {{ template "chrome/includes.html" . }}
+  {{ partial "head/seo.html"}}
+  
+  <!-- Bootstrap Core CSS -->
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/static/css/styles.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>

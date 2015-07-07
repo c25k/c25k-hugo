@@ -1,34 +1,38 @@
-{{ template "chrome/header.html" . }}
+<!DOCTYPE html>
 
-    
+<html class="no-js full" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
 
+{{ template "chrome/header.html" }}
 
-    <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header main-content">
-        <div class="container">
+<body>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1><span>The Simplest Program to start running 5K</span></h1>
-                        <p class="slherotext">
-                            <span>Easy to follow, effortless, simple program</span><br>
-                            <span>Only 3 times a week, 30 minute per session</span><br>
-                            <span>You will never give up again</span><br>
-                            <span>Running will change your life</span><br>
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="/programs" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Get the program</span></a>
-                            </li>
-                        </ul>
-                    </div>
+    {{ template "chrome/menu.html" }}
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h1><span>The Simplest Program to start running 5K</span></h1>
+                    <p class="slherotext">
+                        <span>Only three times a week, 30 minutes per session</span><br>
+                        <span>Easy to follow, effortless, simple program</span><br>
+                        <span>Running will change your life</span><br>
+                        <span>You will never give up again</span><br>
+                    <ul class="list-inline intro-social-buttons">
+                        <li>
+                            <a href="/programs" class="btn btn-default btn-lg call-to-action">GET THE PROGRAM</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
 
     </div>
-    <!-- /.intro-header -->
-{{ template "chrome/footer.html" }}
+
+    {{ template "chrome/scripts.html" . }}
+
+</body>
+
+</html>
