@@ -124,12 +124,17 @@ p.copyright {
 }
 
 td span.week {
-  padding: 1em .5em;
+  padding: 2em .5em;
   writing-mode: tb-rl;
   filter: flipv fliph;
   -webkit-transform:rotate(-90deg); 
   white-space:nowrap; 
   display:block;
+  vertical-align:bottom;
+}
+
+td span.exercise {
+  vertical-align:middle;
 }
 
 .top-row {
