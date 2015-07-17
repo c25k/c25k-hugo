@@ -1,3 +1,7 @@
-baseurl = "http://c25k.io/"
+baseurl = "http://www.c25k.io.com/"
 languageCode = "en-us"
-title = "Couch to 5K"
+title = "C25Kio - Start Running"
+canonifyurls = true
+
+[params]
+  description = "You want to start running regularly, but don't know where to start? Simple running programs and tips are here for you. Start a running routine with the support of C25K."

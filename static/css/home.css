@@ -1,0 +1,78 @@
+html{
+    background:url('/img/landing.jpg') no-repeat center center;
+    min-height:100%;
+    background-size:cover;
+}
+
+body{
+    min-height:100%;
+    background-color: transparent;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+}
+
+.intro-message {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    text-align: left;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    color: #333;
+    text-shadow: 2px 2px 3px rgba(50, 50, 50, 0.6);
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.intro-message span {
+  color: #333;;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px;
+}
+
+.intro-message p>span {
+      font-size: 25px;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+
+
+@media(max-width:767px) {
+
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}

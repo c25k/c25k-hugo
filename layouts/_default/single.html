@@ -1,17 +1,21 @@
-<!DOCTYPE html>
+{{ partial "header.html" . }}
+<body>
+{{ partial "navbar.html" . }}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                    <h3>{{ .Title }}<br> <small>{{ .Description }}</small></h3>
+                    <hr>
+                    {{ .Content }}
+            </div>
+        </div>
 
-<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-
-{{ template "chrome/header.html" . }}
-
-<body lang="en">
-    
-  {{ template "chrome/menu.html" . }}
-  <div class="main-content container">
-    <h1 class="page-header">{{ .Title }}</h1>
-    {{ .Content }}
-  </div>
-  {{ template "chrome/footer.html" . }}
-  {{ template "chrome/scripts.html" . }}
-</body>
-</html>
+        <!-- Sidebar -->
+        <!-- <div class="col-md-3">
+            {{ partial "menu.html" . }}
+        </div> -->
+    </div>
+{{ partial "footer.copyright.html" . }}
+</div>
+{{ partial "footer.html" . }}

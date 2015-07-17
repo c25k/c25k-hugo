@@ -7,4 +7,4 @@ cd $DIR
 
 echo -e "\033[0;32mSite running at http://localhost:1313/\033[0m"
 open http://localhost:1313/
-hugo server --watch --source=./
+hugo server -w

@@ -1,6 +1,11 @@
 +++
 date = "2015-05-19T22:35:28-04:00"
-title = "C25K Program"
+title = "9 Week Program to Start Running 5K"
+description = "Easy to follow program from couch potato to running 5K."
+categories = [ "running", "program" ]
+tags = [
+    "running", "program", "start running"
+]
 +++
 
 <table class="table table-striped">
