@@ -1,4 +1,4 @@
-baseurl = "http://www.c25k.io.com/"
+baseurl = "http://www.c25k.io/"
 languageCode = "en-us"
 title = "C25Kio - Start Running"
 canonifyurls = true
